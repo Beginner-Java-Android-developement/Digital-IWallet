@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name_cell_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:direction">left_to_right</item>
+    </style>
+
+    <style name="name_base_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:direction">left_to_right</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="custom_row_style" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:direction">left_to_right</item>
+    </style>
+</resources>

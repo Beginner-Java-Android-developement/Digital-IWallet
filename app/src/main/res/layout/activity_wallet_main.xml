@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    android:layoutDirection="ltr"
+    tools:context=".WalletMainActivity">
+
+
+    <ImageView
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivWalletDisplayId"
+        android:layout_gravity="center"
+        android:src="@mipmap/wallet_black"
+        android:scaleType="fitCenter"
+        />
+
+    <SeekBar
+        android:layout_marginTop="10sp"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#40C4FF"
+        android:layout_gravity="center"
+        android:id="@+id/sb"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl" android:textDirection="rtl"
+        android:layout_gravity="right" android:gravity="right"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הפקד"
+            android:id="@+id/btnDepositId"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="..."
+            android:id="@+id/etDepositId"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl" android:textDirection="rtl"
+        android:layout_gravity="right" android:gravity="right"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="משוך"
+            android:id="@+id/btnDrawId"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="..."
+            android:id="@+id/etDrawId"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl" android:textDirection="rtl"
+        android:layout_gravity="right" android:gravity="right"
+        android:id="@+id/btnDbResetId"
+        android:text="איפוס רשומות"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:id="@+id/tvMoneyId"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        android:id="@+id/tvInfoId"
+        />
+
+
+
+</LinearLayout>
